@@ -25,8 +25,6 @@ const websites = [
 ]
 
 const ul = document.createElement('ul');
-body.append(ul);
-body.appendChild(h1);
 
 for(let i of websites) {
     const li = document.createElement('li');
@@ -40,7 +38,8 @@ for(let i of websites) {
 }   
 
 
-
+body.append(ul);
+body.appendChild(h1);
 
 
 
