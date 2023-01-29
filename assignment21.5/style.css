@@ -1,0 +1,13 @@
+
+
+
+.smiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.smile {
+    width: 100px;
+    height: 100px;
+}
