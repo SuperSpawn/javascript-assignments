@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess my letter</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="std-font">Welcome To Guess My Letter</h1>
+        <div class="target std-font">?</div>
+        <div class="message">
+            
+            <div class="instruction-div">
+                <p class="instruction std-font">Guess a key</p>
+            </div>
+
+            <div class="expired-input-div">
+                <p class="expired-input std-font">Input already used</p>
+            </div>
+
+            <div class="wrong-answer-div">
+                <p class="wrong-answer std-font">Nope, wrong letter</p>
+            </div>
+            
+            <div class="invalid-input-div">
+                <p class="invalid-input std-font">Please input a valid letter</p>
+            </div>
+
+            <div class="correct-answer-div">
+                <p class="correct-answer std-font">Right letter!</p>
+                <p class="std-font">Would you like to play again?</p>
+                <button class="retry-button std-font">yes</button>
+            </div>
+        </div>
+        <div class="game-info">
+            <p class="std-font">Keys guessed</p>
+            <p class="previous-attempts std-font"></p>
+        </div>
+    </div>
+</body>
+</html>
