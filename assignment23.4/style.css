@@ -1,0 +1,24 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 3rem;
+    background-color: aquamarine;
+}
+
+
+p {
+    font-size: 10rem;
+    color: white;
+}
+
+button {
+    padding: 1rem 3rem;
+    background-color: teal;
+    border: 2px solid black;
+    color: white;
+}
